@@ -144,12 +144,6 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "Type Script",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Next js 13",
     Image: "/next.png",
     width: 80,
