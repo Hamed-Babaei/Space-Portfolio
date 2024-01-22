@@ -16,50 +16,77 @@ export default function Footer() {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxDiscordLogo />
               <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
+            </a>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxTwitterLogo />
               <span className="text-[15px] ml-[6px]">Twitter</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxLinkedinLogo />
               <span className="text-[15px] ml-[6px]">Linkedin</span>
-            </p>
+            </a>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <span className="text-[15px] ml-[6px]">Learning about me</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="#"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <span className="text-[15px] ml-[6px]">
                 dev.hamedbabaei@gmail.com
               </span>
-            </p>
+            </a>
           </div>
         </div>
-        <hr className="w-full text-white py-2" />
+        <hr className="w-full text-gray-400 pb-2 pt-3" />
         <div className="mb-[20px] text-[15px] text-center">
           &copy; Developed By
           <span className="text-[20px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
