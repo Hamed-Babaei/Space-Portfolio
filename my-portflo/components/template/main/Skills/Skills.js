@@ -1,6 +1,6 @@
 import SkillText from "@/components/modules/SkillText/SkillText";
 import SkillsDataProvider from "@/components/modules/SkillsDataProvider/SkillsDataProvider";
-import { Frontend_skill } from "@/constants";
+import { Backend_skill, Frontend_skill } from "@/constants";
 import React from "react";
 
 export default function Skills() {
@@ -23,18 +23,7 @@ export default function Skills() {
         ))}
       </div>
       <div className="flex flex-row justify-center flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
-          <SkillsDataProvider
-            src={image.Image}
-            key={index}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-center flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
+        {Backend_skill.map((image, index) => (
           <SkillsDataProvider
             src={image.Image}
             key={index}
